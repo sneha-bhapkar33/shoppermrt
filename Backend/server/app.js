@@ -8,7 +8,7 @@ const app = express();
 
 // Built-in middleware reads JSON request bodies and places the result in req.body.
 app.use(express.json());
-app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:5173' }));
+app.use(cors());
 
 // Custom middleware runs for every request and logs useful request information.
 app.use(requestLogger);

@@ -7,8 +7,8 @@
   "type": "commonjs",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js",
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
     "seed": "node server/data/seed.js"
   },
   "dependencies": {
